@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../websystem/images/background.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.sameColor {
+  background-color: rgba(33, 33, 33, 0.5);
+}
+
+header {
+  line-height: 40px;
+  width: 500px;
+  margin: 30px 50px;
+  margin-bottom: 80px;
+  box-shadow: 10px 10px rgba(66, 66, 66, 0.5);
+}
+
+header div {
+  padding: 20px 20px;
+}
+
+main {
+  width: 500px;
+  height: 250px;
+  margin: 30px 50px;
+  box-shadow: 10px 10px rgba(66, 66, 66, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.head1 {
+  padding: 20px 20px;
+  background-color: rgba(224, 224, 224, 0.5);
+}
+
+.head1 h3 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.head2 p {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.head3 {
+  margin-top: 10px;
+  padding: 20px 10px;
+  width: 300px;
+  background-color: rgba(66, 66, 66, 0.5);
+}
+
+main .container {
+  padding: 20px 20px;
+}
+
+.head3 p {
+  font-size: 1.4rem;
+}
+
+footer {
+  width: 500px;
+  height: 270px;
+  margin: 30px 50px;
+  padding: 20px 15px;
+  box-shadow: 10px 10px rgba(66, 66, 66, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 150px;
+  height: 180px;
+}
+
+.images {
+  border: #fff 2px solid;
+}
+
+.flex_container {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
